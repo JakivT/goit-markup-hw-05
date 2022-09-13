@@ -332,6 +332,37 @@ color: var(--secondary-text-dark-color)
   column-gap: 30px ;
 }
 
+/* WORK-OVERLAY */
+
+.work-overlay {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.work-overlay-text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  transform: translateY(100%);
+  padding: 27px 0;
+  color: var(--primary-text-light-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.work-overlay-text:hover,
+.work-overlay-text:focus {
+  transform: translateY(0%);
+}
+
 /* TEAM */
 
 .team {
@@ -566,7 +597,30 @@ color: var(--secondary-text-dark-color)
 
   color: var(--secondary-text-dark-color);
 }
+
+/* PORTFOLIO-OVERLAY */
+
+.protfolio-overlay {
+    position: relative;
+    
+}
  
+.portfolio-overlay-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #FFFFFF;
+
+  background: rgba(33, 150, 243, 0.9);
+
+}
+
 /* FOOTER*/
 
 .footer {
@@ -689,7 +743,7 @@ color: var(--secondary-text-dark-color)
 }
 
 .footer-social-item:hover,
-.footer-social-item:focus  {
+.footer-social-item:focus {
   background-color:var(--accent-color) ;
 }
 
