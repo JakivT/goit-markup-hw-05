@@ -129,7 +129,7 @@ color: var(--primary-text-color);
   display: block;
   padding: 32px 0;
   color: var(--primary-text-color);
-  transition: var(--transition-dur-and-func);
+  transition: color var(--transition-dur-and-func);
 }
 
 .list-nav .link:hover,
@@ -181,7 +181,7 @@ letter-spacing: 0.02em;
 padding: 32px 0;
 color: var(--secondary-text-dark-color);
 
-transition: var(--transition-dur-and-func);
+transition: color var(--transition-dur-and-func);
 }
 
 .list-contact .link:hover,
